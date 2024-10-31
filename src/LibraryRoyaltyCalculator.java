@@ -5,9 +5,9 @@ public class LibraryRoyaltyCalculator {
         ArrayList<Title> titles = new ArrayList<>();
 
         Author author1 = new Author( "H.C Andersen");
-        Title printedBook1 = new PrintedBook("Den lille havfrue", "SKØN", 1500, 300);
-        Title printedBook2 = new PrintedBook("Den grimme ælling", "BI", 500, 300);
-        Title audioBook1 = new AudioBook("Den flyvende tæppe", "LYRIK", 1000, 50);
+        Title printedBook1 = new PrintedBook("Den lille havfrue", "SKØN", 1000, 500);
+        Title printedBook2 = new PrintedBook("Den grimme ælling", "BI", 2000, 250);
+        Title audioBook1 = new AudioBook("Den flyvende tæppe", "LYRIK", 3000, 125);
 
         author1.addTitle(printedBook1);
         author1.addTitle(printedBook2);
